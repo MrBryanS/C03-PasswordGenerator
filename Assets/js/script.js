@@ -5,10 +5,29 @@
 
 
 
+//includeUppercase = prompt("Would you like to include uppercase letters in your password?");
+//console.log(includeUppercase);
+//prompt("How many characters (between 8 and 128 ) would you like your password to be?");
+//prompt("Would you like to include lowercase letters in your password?");
+//prompt("Would you like to include special characters in your password?");
+
+
+
+
+//console.log(generateBtn.textContent);
+console.log("v-pwlength")
+console.log(generatePassword());
+
+
+
 
 
 // Create confirm methods instead of prompts
-// confirms return a boolean value, i.e. true or false
+//confirms return a boolean value, i.e. true or false
+
+
+
+
 // prompts allow for more varied user input
 // check if what user gives is number
 //create vars: wantsUpper; wantsLower; wantsNumber; wantsSpecial those will hold
@@ -21,7 +40,7 @@
 var generateBtn = document.querySelector("#generate");
 
 
-console.log(generateBtn);
+
 
 // Write password to the #password input
 function writePassword() {
